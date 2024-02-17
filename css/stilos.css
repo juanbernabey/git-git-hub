@@ -4,8 +4,22 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
-#titulos{
+#colorBody{
+    background-color: #212529;
+}
+.titulos{
     color: white;
     text-align: center;
 }
-
+.descripcion{
+    color: white;
+    text-align: center;
+}
+.redes{
+    text-align: center; 
+    padding: 10px;
+}
+.titulo__footer{
+    text-align: center;
+    color: white;
+}
