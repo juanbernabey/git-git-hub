@@ -8,3 +8,5 @@ practica rebase 2
 
 
 experimento-rebase 
+
+prueba stash
