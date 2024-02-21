@@ -15,4 +15,4 @@ cherry-pick
 
 cherry-pick1
 
-cherry-pick2
+cherry-pick2/amend
