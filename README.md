@@ -9,4 +9,8 @@ practica rebase 2
 
 experimento-rebase 
 
-prueba stash
+prueba stash  
+
+cherry-pick 
+
+cherry-pick1
