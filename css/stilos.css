@@ -7,9 +7,16 @@
 #colorBody{
     background-color: #212529;
 }
+.color-letra{
+    color: white;
+}
 .titulos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: white;
     text-align: center;
+    height: 70px;
 }
 .descripcion{
     color: white;
@@ -20,19 +27,34 @@
     display: flex;
     gap: 2rem;
     justify-content: space-around;
+    align-items: stretch;
 }
 .flex__item img {
     width: 100%;
     height: auto;
 }
+.flex__item p {
+    color: white;
+    padding: 1rem;
+}
+.flex__item button{
+    background-color: rgb(24, 227, 227);
+  border-radius: 10px;
+}
+.footer{
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+}
 .footer__redes{
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
 
 }
 .footer__redes a{
     width: 100%;
     height: auto;
+   
 }
 .footer__pie{
     text-align: center;
