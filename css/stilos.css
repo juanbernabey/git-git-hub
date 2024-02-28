@@ -15,14 +15,30 @@
     color: white;
     text-align: center;
 }
-.redes{
-    text-align: center; 
+.felx__conteiner{
     padding: 10px;
+    display: flex;
+    gap: 2rem;
+    justify-content: space-around;
 }
-.titulo__footer{
+.flex__item img {
+    width: 100%;
+    height: auto;
+}
+.footer__redes{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.footer__redes a{
+    width: 100%;
+    height: auto;
+}
+.footer__pie{
     text-align: center;
+    padding: 15px;
     color: white;
 }
-.color-letra{
+.footer__condiciones{
     color: white;
 }
