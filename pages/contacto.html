@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../css/stilos.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
-<body id="colorBody">
+<body id="colorBody_cover">
     <nav class="navbar navbar-dark navbar-expand-lg bg-dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="../index.html"> <img src="../img/icono.png" alt="logo"></a>
@@ -33,65 +33,39 @@
           </div>
         </div>
       </nav>
-      <div class="titulos" class="container-fluid bg-dark">
+      <div class="titulos">
         <h1 class="titulos">Contacto</h1>
       </div>
-            <form class="row g-3 needs-validation color-letra" novalidate>
-                <div class="col-md-3">
-                  <label for="validationCustom01" class="form-label">nombre</label>
-                  <input type="text" class="form-control" id="validationCustom01" value="..." required>
-                  <div class="valid-feedback">
-                    Looks good!
-                  </div>
-                </div>
-                <div class="col-md-3">
-                  <label for="validationCustom02" class="form-label">apellido</label>
-                  <input type="text" class="form-control" id="validationCustom02" value="..." required>
-                  <div class="valid-feedback">
-                    Looks good!
-                  </div>
-                </div>
-                <div class="col-md-3">
-                  <label for="validationCustomUsername" class="form-label">correo</label>
-                  <div class="input-group has-validation">
-                    <span class="input-group-text" id="inputGroupPrepend">@</span>
-                    <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
-                    <div class="invalid-feedback">
-                      Please choose a username.
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-4">
-                  <label for="validationCustom03" class="form-label">pais</label>
-                  <input type="text" class="form-control" id="validationCustom03" required>
-                  <div class="invalid-feedback">
-                    Please provide a valid city.
-                  </div>
-                </div>
-                </div>
-                <div class="col-md-3">
-                  <label for="validationCustom05" class="form-label">telefono</label>
-                  <input type="text" class="form-control" id="validationCustom05" required>
-                  <div class="invalid-feedback">
-                    Please provide a valid zip.
-                  </div>
-                </div>
-                <div class="col-12">
-                  <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
-                    <label class="form-check-label" for="invalidCheck">
-                      acepto las condiciones
-                    </label>
-                    <div class="invalid-feedback">
-                      You must agree before submitting.
-                    </div>
-                  </div>
-                </div>
-                <div class="col-12">
-                  <button class="btn btn-primary" type="submit">enviar</button>
-                </div>
-              </form>
+      <div class="contacto_">
+        <div class="contacto"  >
+          <label for="exampleFormControlInput1" class="form-label">nombre</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name">
         </div>
+        <div class="contacto"  >
+          <label for="exampleFormControlInput1" class="form-label">apellido</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="apelido">
+        </div>
+      </div>
+      <div class="contacto_">
+        <div class="contacto"  >
+          <label for="exampleFormControlInput1" class="form-label">direccion</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="direccion">
+        </div>
+        <div class="contacto"  >
+          <label for="exampleFormControlInput1" class="form-label">correo</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="email">
+        </div>
+      </div>
+        <div class="contacto">
+          <label for="exampleFormControlTextarea1-" class="form-label">dejenos su consulta</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <div class="mb-3 form-check contacto">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Acepta terminos y condiciones</label>
+        </div>
+        <button  type="submit" class="btn btn-primary contacto">enviar</button>
+
         <footer class="footer">
           <div class="footer__pie">
             <h2 class="titulos">Politica de Privacidad</h2>
@@ -131,8 +105,7 @@
           <div>
             <h2 class="titulos">© Copyright 2005-2024</h2>
           </div>
-        </footer> 
-             
+        </footer>             
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
